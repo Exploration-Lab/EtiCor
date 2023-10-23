@@ -41,7 +41,7 @@ We tested three Language Based Models on the Ettiquete Sensitivity task:
     author = "Dwivedi, Ashutosh and
       Lavania, Pradhyumna and
       Modi, Ashutosh",
-    "Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing",
+    booktitle = "Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing",
     month = dec,
     year = "2023",
     address = "Singapore,

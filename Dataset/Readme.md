@@ -1,7 +1,7 @@
 ## Eticor
 **Access**
 
-To access the dataset, please fill out the following Google form: link: https://forms.gle/NRr6zpdF71qwoEYq8. You will receive an email with a link to the dataset within one week.
+To access the dataset, please fill out the following Google form: link: https://forms.gle/NRr6zpdF71qwoEYq8.
 
 **Dataset**
 

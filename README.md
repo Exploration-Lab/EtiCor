@@ -32,6 +32,14 @@ We tested three Language Based Models on the Ettiquete Sensitivity task:
 * **Delphi:** A 175B parameter language model from Google AI.
 * **Falcon 40B:** A 40B parameter language model from Hugging Face.
 * **GPT 3.5-turbo:** A 175B parameter language model from OpenAI.
+## License
+
+[![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
+
+
+The Eticor dataset and follows [CC-BY-NC](CC-BY-NC) license. Thus, users can share and adapt our dataset if they give credit to us and do not use our dataset for any commercial purposes.
+
+
 
 ## Citation
 

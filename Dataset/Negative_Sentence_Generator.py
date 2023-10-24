@@ -21,9 +21,7 @@ model.to('cuda' if torch.cuda.is_available() else 'cpu')
 
 
 import pandas as pd
-df=pd.read_csv('/content/USE.csv',encoding='utf-8')
-
-df
+df=pd.read_csv('Eticor/Dataset/Positive Labels/NE.csv',encoding='utf-8')
 
 examples1=df['Sentences'].tolist()
 

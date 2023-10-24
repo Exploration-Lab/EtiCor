@@ -137,7 +137,7 @@ class MakeApiCall:
         }
         self.api = api
 
-file_path = r'/content/MEA_positive_new.csv'
+file_path = r'/Dataset/Labelled/EA_Labelled.csv'
 df = pd.read_csv(file_path,encoding='unicode_escape')
 
 
@@ -173,9 +173,7 @@ for j in tqdm(dfn):
         pred_class.append('NULL')
         pred_sen.append('NULL')
 
-dat_india = pd.DataFrame(list(zip(list(df['sentences'].values),pred_class,pred_sen)),columns = ['etiquette','class','sentiment'])
+data = pd.DataFrame(list(zip(list(df['sentences'].values),pred_class,pred_sen)),columns = ['etiquette','class','sentiment'])
 
-dat_india.to_csv('Meanew_N_Delphi.csv')
+data.to_csv('Delphi_Output.csv')
 
-from google.colab import drive
-drive.mount('/content/drive')

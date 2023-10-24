@@ -24,7 +24,7 @@ data = {
 
 import pandas as pd
 import time
-df=pd.read_csv('/content/India.csv',encoding='Latin-1')
+df=pd.read_csv('/Dataset/Labelled/EA_Labelled.csv',encoding='unicode-escape')
 
 sentences=list(df['0'])
 
@@ -69,4 +69,4 @@ for pred in gpt_pred:
 # prompt: convert masterlist to df then to c
 
 master_list_df=pd.DataFrame(master_list)
-master_list_df.to_csv('gpt_pred_India_P.csv', index=False)
+master_list_df.to_csv('gpt_output.csv', index=False)
